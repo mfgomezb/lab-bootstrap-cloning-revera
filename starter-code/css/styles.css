@@ -32,18 +32,24 @@ body {
 .carousel-control-prev-icon {
     background-color: #EB5750;
     height: 100px;
-    opacity:100;
-    left: 0;
-    margin-left: 0;
+    opacity:100%;
+
 }
    
 .carousel-control-next-icon {
     background-color: #EB5750;
     height: 100px;
-    opacity:100;
-    right: 0;
-    margin-right: 0;
+    opacity:100%;
 }
+
+.carousel-control-next {
+    width: 20px;
+}
+
+.carousel-control-prev {
+    width: 20px;
+}
+
 
 .navbar {
     background-color: silver;
